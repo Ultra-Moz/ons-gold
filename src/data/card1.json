@@ -1,0 +1,43 @@
+[{
+   "name":"Coinbase",
+   "image":"/images/coinbase.png"
+
+},
+{
+    "name":"Rainbow",
+    "image":"/images/rainbow.png"
+ 
+ },
+ {
+    "name":"TrustWallet",
+    "image":"/images/trust-wallet.png"
+ 
+ },
+ {
+    "name":"1inch Wallet",
+    "image":"/images/1-inch-wallet.png"
+ 
+ },
+ {
+    "name":"AlphaWallet",
+    "image":"/images/alpha-wallet.png"
+ 
+ },
+ {
+    "name":"Metamask",
+    "image":"/images/metamask.png"
+ 
+ },
+ {
+    "name":"Leystone",
+    "image":"/images/keystone.png"
+ 
+ },{
+    "name":"Frontier",
+    "image":"/images/frontier.png"
+ 
+ },{
+    "name":"GridPlus",
+    "image":"/images/grid-plus.png"
+ 
+ }]

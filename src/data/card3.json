@@ -1,0 +1,43 @@
+[{
+    "name":"Coinbase",
+    "image":"/images/coinbase.png"
+ 
+ },
+ {
+     "name":"Brave",
+     "image":"/images/brave.png"
+  
+  },
+  {
+     "name":"Status",
+     "image":"/images/status.png"
+  
+  },
+  {
+     "name":"Cloudflare",
+     "image":"/images/cloud-flare.png"
+  
+  },
+  {
+     "name":"Almonit Extention",
+     "image":"/images/almonit-extention.png"
+  
+  },
+  {
+     "name":"Metamask",
+     "image":"/images/metamask.png"
+  
+  },
+  {
+     "name":"Aloha",
+     "image":"/images/aloha.png"
+  
+  },{
+     "name":"Beacon",
+     "image":"/images/beacon.png"
+  
+  },{
+     "name":"ETH Lemo",
+     "image":"/images/eth-limo.png"
+  
+  }]

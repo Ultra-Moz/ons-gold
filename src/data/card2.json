@@ -1,0 +1,43 @@
+[{
+    "name":"Uniswap",
+    "image":"/images/uniswap.png"
+ 
+ },
+ {
+     "name":"Etherscan",
+     "image":"/images/etherscan.png"
+  
+  },
+  {
+     "name":"Showtime",
+     "image":"/images/showtime.png"
+  
+  },
+  {
+     "name":"OpenSea",
+     "image":"/images/open-sea.png"
+  
+  },
+  {
+     "name":"Aave",
+     "image":"/images/aave.png"
+  
+  },
+  {
+     "name":"o Exchange",
+     "image":"/images/o-exchange.png"
+  
+  },
+  {
+     "name":"3 Box Hub",
+     "image":"/images/3-box-hub.png"
+  
+  },{
+     "name":"3F Mutual",
+     "image":"/images/3f-mutual.png"
+  
+  },{
+     "name":"4everland",
+     "image":"/images/4everland.png"
+  
+  }]

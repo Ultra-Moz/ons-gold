@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Syne&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ProtoMono-Regular";
+  src: url("/fonts/ProtoMono-Regular.woff") format("truetype");
+  font-weight: 400;
+}
+body {
+  @apply bg-[#181818] !overflow-x-hidden;
+}
+
+@layer utilities {
+  .wrapper {
+    @apply flex justify-center;
+  }
+
+  .contain {
+    @apply w-[90%] max-w-[1300px];
+  }
+}
+.splide__pagination__page {
+  @apply !rounded-full !aspect-square !border-[1px] !text-white !border-solid border-[white] !w-[180px] !h-[180px] font-ProtoMono text-lg uppercase;
+}
+.is-active {
+  @apply !border-[#FF5101] !text-[#FF5101] !bg-transparent !transform-none;
+}
+.splide__pagination {
+  @apply flex gap-[2.25rem] static;
+}
+.splide__pagination > li:nth-child(1) .splide__pagination__page::before {
+  content: "Search";
+}
+.splide__pagination > li:nth-child(2) .splide__pagination__page::before {
+  content: "Register";
+}
+.splide__pagination > li:nth-child(3) .splide__pagination__page::before {
+  content: "Manage";
+}
+.text-outline-orange {
+  -webkit-text-stroke: 1px #ff5101;
+}
+
+.cards-full > *:nth-child(2) {
+  margin-top: 30px;
+}

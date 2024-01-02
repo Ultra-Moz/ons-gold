@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "ProtoMono-Regular";
   src: url("/fonts/ProtoMono-Regular.woff") format("truetype");
@@ -14,7 +17,7 @@ body {
 
 @layer utilities {
   .wrapper {
-    @apply flex justify-center;
+    @apply flex justify-center -z-10;
   }
 
   .contain {
@@ -22,13 +25,13 @@ body {
   }
 }
 .splide__pagination__page {
-  @apply !rounded-full !aspect-square !border-[1px] !text-white !border-solid border-[white] !w-[180px] !h-[180px] font-ProtoMono text-lg uppercase;
+  @apply !rounded-full !border-[1px] !text-white !border-solid border-[white] w-[110px] sm:w-[130px] md:w-[150px] lg:w-[180px] !h-auto !aspect-square font-ProtoMono text-[14px] md:text-[16px] lg:text-lg uppercase;
 }
 .is-active {
   @apply !border-[#FF5101] !text-[#FF5101] !bg-transparent !transform-none;
 }
 .splide__pagination {
-  @apply flex gap-[2.25rem] static;
+  @apply flex gap-[0.75rem] sm:gap-[2.25rem] static;
 }
 .splide__pagination > li:nth-child(1) .splide__pagination__page::before {
   content: "Search";
@@ -44,5 +47,5 @@ body {
 }
 
 .cards-full > *:nth-child(2) {
-  margin-top: 30px;
+  @apply lg:mt-[30px];
 }

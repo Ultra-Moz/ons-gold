@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="wrapper bg-[#0E0E0E]  min-h-[735px] items-center">
-      <div className="contain flex ">
-        <div className="w-full flex flex-col gap-4">
+    <div className="flex justify-center bg-[#0E0E0E] py-[200px] items-center relative">
+      <div className="contain flex flex-col lg:flex-row gap-y-16">
+        <div className="w-full flex flex-col  items-center lg:items-left justify-center text-center gap-4">
           <img
             src="/images/logo.png"
             alt="ONS."
@@ -18,7 +18,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="w-full flex flex-col gap-3 mx-10">
+        <div className="w-full flex flex-col items-center justify-center text-center gap-3 lg:mx-10">
           <h4 className="text-[22px] leading-[33px] font-ProtoMono text-white ">
             QUICK LINK
           </h4>
@@ -39,12 +39,12 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="w-full flex flex-col gap-16">
+        <div className="w-full flex flex-col items-center justify-center text-center gap-16">
           <div className="">
             <span className="text-[#888] font-ProtoMono text-lg leading-[27px]">
               CONTACT US
             </span>
-            <h3 className="font-ProtoMono text-[40px] leading-[60px] text-white">
+            <h3 className="font-ProtoMono text-[32px] sm:text-[40px] leading-[60px] text-white">
               @ONS.DOMAINS
             </h3>
           </div>
@@ -52,7 +52,7 @@ const Footer = () => {
             <span className="text-[#888] font-ProtoMono text-lg leading-[27px]">
               DROP US MESSAGE
             </span>
-            <h3 className="font-ProtoMono text-[40px] leading-[60px] text-white">
+            <h3 className="font-ProtoMono text-[32px] sm:text-[40px] leading-[60px] text-white">
               HELLO@ONS.COM
             </h3>
           </div>
@@ -63,24 +63,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <svg
-        width="99"
-        height="98"
-        viewBox="0 0 99 98"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+      <a
+        href="#"
+        className="absolute cursor-pointer bottom-20 right-50 lg:right-20"
       >
-        <circle cx="49.6349" cy="48.3649" r="47.8649" stroke="#393939" />
-        <path
-          d="M97.9999 48.3646C97.9999 61.0443 93.0205 73.2168 84.1339 82.2613C75.2473 91.3058 63.1642 96.4987 50.4865 96.722C37.8088 96.9452 25.5504 92.1809 16.3509 83.455C7.15136 74.729 1.74648 62.7393 1.30005 50.0674"
-          stroke="#FF5101"
-          stroke-width="2"
-        />
-        <path
-          d="M64.7175 57.0705L50.0221 39.6592L34.5527 57.0705"
-          stroke="#CCCCCC"
-        />
-      </svg> */}
+        <img src="/images/arrow-up.svg" alt="UP" />
+      </a>
     </div>
   );
 };

@@ -4,8 +4,8 @@ const Description = () => {
   const domains = [".COM", ".ORG", ".IO", ".APP", ".XYZ", ".ART"];
   return (
     <div className="wrapper">
-      <div className="contain flex justify-evenly py-[160px]">
-        <div className="flex flex-col gap-3">
+      <div className="contain grid grid-cols-1 lg:grid-cols-3 place-items-center lg:place-items-start gap-y-12 gap-8 py-[80px] sm:py-[110px]  md:py-[140px] xl:py-[160px]">
+        <div className="flex flex-col gap-3 px-5">
           <span className="font-DMSans text-[#181818] text-[80px] leading-[88px] text-outline text-outline-orange min-h-[104px] shrink-0">
             01
           </span>
@@ -18,7 +18,7 @@ const Description = () => {
             or NFT.
           </p>
         </div>
-        <div className="flex flex-col gap-3 mt-[54px]">
+        <div className="flex flex-col gap-3 lg:mt-[54px] px-5">
           <span className="font-DMSans text-[#181818] text-[80px] leading-[88px] text-outline text-outline-orange min-h-[104px] shrink-0">
             02
           </span>
@@ -30,7 +30,7 @@ const Description = () => {
             your website to IPFS and access it with your ONS name.
           </p>
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 px-5">
           <span className="font-DMSans text-[#181818] text-[80px] leading-[88px] text-outline text-outline-orange min-h-[104px] shrink-0">
             03
           </span>

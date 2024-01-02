@@ -2,8 +2,8 @@ import React from "react";
 
 const Card = ({ number, heading, data }) => {
   return (
-    <div className="flex flex-col gap-7 items-center">
-      <div className="flex justify-between items-end w-full">
+    <div className="flex flex-col gap-7 items-center ">
+      <div className="flex justify-between items-center lg:items-end w-[200px] md:w-[300px] lg:w-2/3">
         <span className="font-DMSans text-[22px] leading-[33px] text-white">
           {number}
         </span>
@@ -12,14 +12,14 @@ const Card = ({ number, heading, data }) => {
         </span>
       </div>
 
-      <div className="w-[412px] min-h-[464px] bg-[#555] grid grid-cols-3 place-items-center">
+      <div className="max-w-[450px] p-5 lg:p-3 xl:p-5 gap-5 lg:gap-3 xl:gap-5 min-h-[464px] bg-[#555] grid grid-cols-3 place-items-center">
         {data.map((group, index) => {
           return (
             <div key={index} className="flex flex-col justify-center">
               <img
                 src={group.image}
                 alt={group.name}
-                className="w-[90px] aspect-square"
+                className="max-w-[90px] lg:max-w-[80px] xl:max-w-[90px] aspect-square"
               />
               <span className="text-center text-white text-ellipsis text-[16px] leading-[24px] overflow-hidden max-w-[85px] line-clamp-1 font-Syne">
                 {group.name}
@@ -29,9 +29,9 @@ const Card = ({ number, heading, data }) => {
         })}
       </div>
 
-      <div className="flex relative w-full justify-center">
+      <div className="flex relative w-full justify-center -ml-4 -z-10">
         <div className="w-[60px] aspect-square shrink-0 bg-[#FF5101] rounded-full"></div>
-        <div className="flex items-center gap-2 absolute top-1/2 -translate-y-1/2 translate-x-11">
+        <div className="flex items-center gap-2 absolute top-1/2 -translate-y-1/2 translate-x-11 ">
           <span className="text-white text-center text-lg">VIEW ALL</span>
           <svg
             width="15"

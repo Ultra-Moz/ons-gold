@@ -18,8 +18,8 @@ const App = () => {
       <div className="fixed inset-0 wrapper ">
         <div className="contain flex justify-between">
           <div className="w-[1px] bg-white opacity-10"></div>
-          <div className="w-[1px] bg-white opacity-0 md:opacity-10"></div>
-          <div className="w-[1px] bg-white opacity-0 md:opacity-10"></div>
+          <div className="w-[1px] bg-white opacity-10"></div>
+          <div className="w-[1px] bg-white opacity-10"></div>
           <div className="w-[1px] bg-white opacity-10"></div>
         </div>
       </div>

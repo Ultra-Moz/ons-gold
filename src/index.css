@@ -17,7 +17,7 @@ body {
 
 @layer utilities {
   .wrapper {
-    @apply flex justify-center -z-10;
+    @apply flex justify-center -z-10 max-w-[100vw];
   }
 
   .contain {

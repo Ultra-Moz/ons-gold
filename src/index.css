@@ -2,7 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+* {
+  scrollbar-color: #8e8e8e #fff;
+  scrollbar-width: thin;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -17,7 +20,7 @@ body {
 
 @layer utilities {
   .wrapper {
-    @apply flex justify-center -z-10 max-w-[100vw];
+    @apply flex justify-center -z-10 max-w-full;
   }
 
   .contain {
